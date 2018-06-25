@@ -1,0 +1,252 @@
+
+
+label{
+    color: white;
+}
+
+.row{
+}
+
+.container-fluid{
+    background-color: orange;
+    height: 100%;
+    
+}
+
+.r1{
+    background-color: white;
+}
+
+.r3{
+    background-color: black;
+    height: 150px;
+}
+
+.r4{
+    background-color: white;
+}
+
+.txt1{
+    color: black;
+    font-size: 40px;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.txt2{
+    margin-top: 20%;
+    margin-left: 20%;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.txt3{
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+#txt4{
+    font-size: 30px;
+    color: white;
+    margin-top: 2%;
+    margin-left: 10%;
+    
+}
+
+#txt5{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    
+}
+
+.txtf{
+    margin-left: 9%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.txty{
+     padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#box{
+    height: 650px;
+    margin-top: 3%;
+    margin-right: 20%; 
+    margin-left: 20%;
+    background-color: rgba(0,0,0,0.5);
+    width: 430px;
+}
+
+#inbox{
+    padding-top:20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+
+.btn{
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 170px;
+    padding-left: 170px;
+    padding-bottom: 10px;
+}
+
+#InputGSM{
+    margin-top: -15px;
+    margin-bottom: 70px;
+}
+
+.btn-primary {
+    background: #ff6100;
+    color: #ffffff;
+}
+
+
+
+
+@media (max-width: 1100px) {
+    
+    #box{
+    height: 650px;
+    margin-top: 3%;
+/*    margin-right: 10%; */
+/*    margin-left: 5%;*/
+    background-color: rgba(0,0,0,0.5);
+    width: 350px;
+}
+    
+    .btn{
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+    
+    #InputName{
+        display: table;
+        margin: 0 auto;
+    }
+    
+     #InputSurname{
+        display: table;
+        margin: 0 auto;
+    }
+    
+    #InputGSM{
+    margin-top: -15px;
+    margin-bottom: 60px;
+}
+       
+}
+
+
+@media (max-width: 990px) {
+    
+    .txt1{
+        margin: 0 auto;
+        display: table;
+        padding-left: 0px;
+    }
+    
+    .txt2{
+        margin: 0 auto;
+        display: table;
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+     .txt3{
+        margin: 0 auto;
+        display: table;
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 10%;
+    } 
+    
+    #box{
+    display: table;
+    margin: 0 auto;
+    height: 650px;
+    margin-top: 10%;
+    background-color: rgba(0,0,0,0.5);
+    width: 350px;
+}
+    
+    #InputName{
+        display: table;
+        margin: 0 auto;
+        margin-top: -15px;
+    }
+    
+     #txt4{
+        margin: 0 auto;
+        display: table;
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 4%;
+    }
+    
+     #txt5{
+        margin: 0 auto;
+        display: table;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .txtf{
+        display: table;
+        margin: 0 auto;
+    }
+    
+    .txty{
+        display: table;
+        margin: 0 auto;
+    }
+    
+    
+}
+
+
+@media (max-width: 770px) {
+    
+    .r3{
+        height: 200px;
+    }
+    
+    
+}
+
+@media (max-width: 400px) {
+
+    
+    .r3{
+        height: 250px;
+    }
+    
+}
+
+@media (max-width: 380px) {
+ 
+    #box{
+    display: table;
+    margin: 0 auto;
+    height: 650px;
+    margin-top: 10%;
+    background-color: rgba(0,0,0,0.5);
+    width: 250px;
+}
+    
+    .r3{
+        height: 280px;
+    }
+    
+    
+}
